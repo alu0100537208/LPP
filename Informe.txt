@@ -1,0 +1,34 @@
+1) Escriba una clase con un metodo público que reciba como argumento el perimetro de una circunferencia y retorne el radio de la misma. Escriba pruebas unitarias para dicha clase. Compruebe el comportamiento ante situaciones con estas:
+
+* ¿Qué ocurre si la entrada no es un numero?
+
+El resultado obtenido al introducir un valor distinto a un numero es:
+
+    root@josepc:/home/jose/Escritorio/Lpp-DEb# ruby radio.rb 
+ 
+    Introducir perimetro de la circunferencia: w
+ 
+    Radio de la circunferencia: 0.0
+ 
+    root@josepc:/home/jose/Escritorio/Lpp-DEb# 
+
+
+
+* ¿Qué ocurre si la entrada es un numero negativo?
+
+El resultado obtenido al introducir un numero negativo es:
+
+    root@josepc:/home/jose/Escritorio/Lpp-DEb# ruby radio.rb 
+ 
+    Introducir perimetro de la circunferencia: -12
+ 
+    Radio de la circunferencia: -1.91082802547771
+ 
+    root@josepc:/home/jose/Escritorio/Lpp-DEb#
+
+
+
+
+
+
+
